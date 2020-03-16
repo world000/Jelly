@@ -22,7 +22,7 @@ public protocol LiveUpdatable {
 public class Animator: NSObject {
     private var presentation: Presentation
     
-    private var currentPresentationController: PresentationController!
+    private weak var currentPresentationController: PresentationController!
     private weak var presentedViewController: UIViewController!
     
     private var showInteractionController: InteractionController?
