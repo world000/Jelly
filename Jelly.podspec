@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Sebastian Boldt' => 'self.dealloc@googlemail.com' }
     s.social_media_url = 'http://twitter.com/sebastianboldt'
-    s.source           = { :git => 'https://github.com/SebastianBoldt/Jelly.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/world000/Jelly.git', :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/sebastianboldt'
 
     s.ios.deployment_target = '10.0'
