@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '10.0'
     s.source_files = 'Jelly/Classes/**/*'
     s.frameworks = 'UIKit'
-    s.swift_version = '4.2'
+    s.swift_version = '5.0'
 end
 
