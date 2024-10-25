@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/world000/Jelly.git', :tag => s.version.to_s }
     s.social_media_url = 'https://twitter.com/sebastianboldt'
 
-    s.ios.deployment_target = '10.0'
+    s.ios.deployment_target = '11.0'
     s.source_files = 'Jelly/Classes/**/*'
     s.frameworks = 'UIKit'
     s.swift_version = '5.0'
