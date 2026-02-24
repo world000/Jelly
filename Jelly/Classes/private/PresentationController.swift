@@ -142,7 +142,7 @@ extension PresentationController {
 
         dimmingView.translatesAutoresizingMaskIntoConstraints = false
         dimmingView.alpha = 0.0
-        dimmingView.backgroundColor = UIColor(white: 0.0, alpha: alpha)
+        dimmingView.backgroundColor = UIColor(white: 0.0, alpha: 1)
 
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(handleTap(recognizer:)))
         dimmingView.addGestureRecognizer(recognizer)
